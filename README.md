@@ -1,4 +1,4 @@
-Team 5 Redmi 6 Review Analysis Automation
+Team 5's Redmi 6 Review Analysis Automation
 Overview
 This Python script automates the analysis of user reviews for the Redmi 6 smartphone, stored in a Google Sheet. It uses the Cohere AI API for sentiment analysis and summarization, writes results back to the sheet, and generates a pie chart to visualize sentiment distribution.
 Purpose
@@ -8,9 +8,7 @@ Analyze each review using Cohere AI to determine sentiment (Positive, Negative, 
 Write results to the Google Sheet in columns: "AI Sentiment", "AI Summary", and "Action Needed?" (Yes for Negative, No otherwise).
 Visualize sentiment breakdown with a pie chart saved as an image.
 
-Prerequisites
 
-Python 3.7+
 Libraries: Install required packages using:pip install gspread oauth2client cohere pandas matplotlib google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
 
@@ -55,5 +53,4 @@ Notes:
 Ensure the Google Sheet has a "Redmi6" sheet with a "Review" column.
 Handle Cohere API rate limits by adding delays if needed.
 Keep creds.json secure and exclude it from version control.
-
 
