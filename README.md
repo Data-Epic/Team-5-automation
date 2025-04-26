@@ -50,7 +50,7 @@ Saves a pie chart (sentiment_pie_chart.png) showing sentiment distribution.
 
 
 
-Notes
+Notes:
 
 Ensure the Google Sheet has a "Redmi6" sheet with a "Review" column.
 Handle Cohere API rate limits by adding delays if needed.
