@@ -60,6 +60,8 @@ Ensure the Google Sheet has a "Redmi6" sheet with a "Review" column.
 Handle Cohere API rate limits by adding delays if needed.
 Keep creds.json secure and exclude it from version control.
 
-Contributors
+#Contributors
+
 Baliqees Oladunjoye
+
 Ayomide Adeduro
